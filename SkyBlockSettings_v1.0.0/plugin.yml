@@ -1,0 +1,20 @@
+name: SkyBlockSettings
+api: [3.15.0]
+version: 1.0.0
+author: sdsd16
+main: SkyBlockSettings\Main
+description: SkyBlockSettings For SEXD SkyBlock Server
+
+commands:
+ ats:
+  description: "添加贊助名單"
+  permisison: OP
+ iss:
+  description: "島嶼管理選單"
+  permisison: Player
+  
+permissions:
+ OP:
+  default: op
+ Player:
+  default: true
